@@ -10,7 +10,7 @@ const TodoList = ({todos, onRemove, onToggle}) => {
 
   useEffect(() => {
     console.log('todos ---- ');
-    console.log(todos);
+    console.log(todos.length);
   }, [todos]);
 
   return (
